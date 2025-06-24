@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(135deg, #fceeea, #e9f6f2);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #fdd9c0;
+    color: #4b3b30;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 3px solid #d2a679;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #5a4e46;
+  }
+  
+  #album-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+  
+  .album {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.07);
+    width: 220px;
+    padding: 1rem;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .album:hover {
+    transform: translateY(-5px);
+  }
+  
+  .album img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+  }
+  
+  .album h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.2rem;
+    color: #2e2e2e;
+    margin-bottom: 0.3rem;
+  }
+  
+  .album p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.8rem;
+  }
+  
+  button.favorito-btn {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #c67f7f;
+    transition: color 0.3s ease;
+  }
+  
+  button.favorito-btn.ativo {
+    color: #e84a5f;
+  }
+  
+  #favoritos {
+    background-color: #f9f5f0;
+    padding: 2rem 1rem;
+    border-top: 2px solid #ebd9c2;
+    margin-top: 3rem;
+  }
+  
+  #favoritos h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+    color: #6c4c3d;
+    margin-bottom: 1rem;
+  }
+  
+  #lista-favoritos {
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #444;
+  }
+  
