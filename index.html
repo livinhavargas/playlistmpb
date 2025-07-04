@@ -2,23 +2,36 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <title>MPB Interativo</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clássicos da MPB</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dosis&display=swap" rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <h1> Clássicos da MPB</h1>
-        <p>Clique nos corações para favoritar seus álbuns favoritos!</p>
+        <h1>🎶 Clássicos da MPB</h1>
+        <p>Clique nos corações para favoritar suas músicas favoritas!</p>
     </header>
 
+    <section id="formulario-musica">
+        <h2>Adicionar Nova Música</h2>
+        <form id="form-musica">
+            <input type="text" id="titulo-musica" placeholder="Título da música" required />
+            <input type="text" id="artista-musica" placeholder="Artista" required />
+            <button type="submit">Adicionar</button>
+        </form>
+    </section>
+
     <main id="album-container">
-        <!-- Os álbuns serão inseridos aqui via JavaScript -->
+        <!-- Músicas adicionadas dinamicamente -->
     </main>
 
     <section id="favoritos">
-        <h2> Meus Favoritos <3 </h2>
+        <h2>Meus Favoritos</h2>
         <ul id="lista-favoritos"></ul>
     </section>
 
