@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clássicos da MPB</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Dosis&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div id= "contadorgeral" style="text-align:center; margin: 1rem; font-weight: bold;">
+        Total de cliques nos corações: <span id="total-cliques">0</span>
+        </div>
+        <h1>Clássicos da MPB</h1>
+        <p>Clique nos corações para favoritar suas músicas favoritas!</p>
+        <button id="toggle-tema">Modo Escuro</button>
+    </header>
+
+    <section id="formulario-musica">
+        <h2>Adicionar Nova Música</h2>
+        <form id="form-musica">
+            <input type="text" id="titulo-musica" placeholder="Título da música" required />
+            <input type="text" id="artista-musica" placeholder="Artista" required />
+            <button type="submit">Adicionar</button>
+        </form>
+    </section>
+
+    <main id="album-container">
+        <!-- Músicas adicionadas dinamicamente -->
+    </main>
+
+    <section id="favoritos">
+        <h2>Meus Favoritos</h2>
+        <ul id="lista-favoritos"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
