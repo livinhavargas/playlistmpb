@@ -172,3 +172,41 @@ color: #fff;
 body.modo-escuro #nome {
   color: #fff;
 }
+
+body.modo-rosa {
+  background: linear-gradient(135deg, #ffc3fc, #f198de);
+  color: #000000;
+}
+
+body.modo-rosa header {
+  background-color: #d4a6d4;
+  color: #000000;
+  border-bottom: 3px solid #f6b1f8;
+}
+
+body.modo-rosa #formulario-musica,
+body.modo-rosa #favoritos,
+body.modo-rosa .album {
+  background-color: #e6a3e2;
+}
+
+body.modo-rosa button.favorito-btn {
+  color: #000000;
+}
+
+body.modo-rosa button.favorito-btn.ativo {
+  color: #dba6db;
+}
+
+
+body.modo-rosa p {
+   color: #000000;
+}
+
+ body.modo-rosa .albuns {
+color: #000000;
+}
+
+body.modo-rosa #nome {
+  color: #000000;
+}

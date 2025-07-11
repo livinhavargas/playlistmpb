@@ -125,9 +125,12 @@ function aplicarTemaSalvo() {
     botaoTema.textContent = "Modo Claro";
   } else {
     botaoTema.textContent = "Modo Escuro";
-  }
+  } 
 }
 
+function aplicarTemaSalvo () {
+  
+}
 botaoTema.addEventListener("click", () => {
   document.body.classList.toggle("modo-escuro");
 
